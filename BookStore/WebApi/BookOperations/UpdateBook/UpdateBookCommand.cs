@@ -3,13 +3,13 @@ using WebApi.DBOperations;
 
 namespace WebApi.BookOperations.UpdateBook
 {
-    public class UpdateBookQuery
+    public class UpdateBookCommand
     {
         public UpdateBookModel Model { get; set; }
         public int BookId { get; set; }
 
         private readonly BookStoreDbContext _dbContext;
-        public UpdateBookQuery(BookStoreDbContext dbContext)
+        public UpdateBookCommand(BookStoreDbContext dbContext)
         {
             _dbContext = dbContext;
         }

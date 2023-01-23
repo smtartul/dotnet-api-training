@@ -4,12 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebApi;
+using WebApi.BookOperations.DeleteBookCommand;
 using WebApi.BookOperations.GetBookDetail;
 using WebApi.BookOperations.GetBooks;
 using WebApi.BookOperations.UpdateBook;
 using WebApi.Common.CreateBook;
 using WebApi.DBOperations;
-using static WebApi.BookOperations.UpdateBook.UpdateBookQuery;
+using static WebApi.BookOperations.UpdateBook.UpdateBookCommand;
 using static WebApi.Common.CreateBook.CreateBookCommand;
 
 namespace WebApi.Controllers
@@ -95,12 +96,12 @@ namespace WebApi.Controllers
         [HttpPut("{id}")]
         public IActionResult UpdateBook(int id, [FromBody] UpdateBookModel updatedBook)
         {
-            UpdateBookQuery query = new UpdateBookQuery(_context);
+            UpdateBookCommand command = new UpdateBookCommand(_context);
             try
             {
-                query.BookId=id;
-                query.Model = updatedBook;
-                query.Handle();
+                command.BookId=id;
+                command.Model = updatedBook;
+                command.Handle();
             }
             catch (System.Exception ex)
             {
@@ -111,13 +112,16 @@ namespace WebApi.Controllers
         [HttpDelete("{id}")]
         public IActionResult DeleteBook(int id)
         {
-            var book = _context.Books.SingleOrDefault(x => x.Id == id);
-            if (book is null)
+            DeleteBookCommand command=new DeleteBookCommand(_context);
+            try
             {
-                return BadRequest();
+                command.BookId=id;
+                command.Handle();
             }
-            _context.Books.Remove(book);
-            _context.SaveChanges();
+            catch (System.Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
             return Ok();
         }
 
