@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CfoUAGHLtJB9SWZBVaqv66FYUOkKoTaZdX4eDCkwLiqP00tgOUVjckjNqgBgQt3EB0ithmk+stPlT59a9QgsSQ==",
+  "dgSpecHash": "BSseLVUo8ktDZ0sneNn45oxVAOcggx7H9/Raj+EGeYvXy0Sb1EuBXdKw61YCdyyeaZkCewDeWaiDieO8SM+AJA==",
   "success": true,
-  "projectFilePath": "/Users/sametartul/Desktop/git/dotnet/BookStore/WebApi/WebApi.csproj",
+  "projectFilePath": "/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/sametartul/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/sametartul/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",

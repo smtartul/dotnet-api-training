@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sametartul/Desktop/git/dotnet/BookStore/WebApi/WebApi.csproj": {}
+    "/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/WebApi.csproj": {}
   },
   "projects": {
-    "/Users/sametartul/Desktop/git/dotnet/BookStore/WebApi/WebApi.csproj": {
+    "/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sametartul/Desktop/git/dotnet/BookStore/WebApi/WebApi.csproj",
+        "projectUniqueName": "/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "/Users/sametartul/Desktop/git/dotnet/BookStore/WebApi/WebApi.csproj",
+        "projectPath": "/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/WebApi.csproj",
         "packagesPath": "/Users/sametartul/.nuget/packages/",
-        "outputPath": "/Users/sametartul/Desktop/git/dotnet/BookStore/WebApi/obj/",
+        "outputPath": "/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sametartul/.nuget/NuGet/NuGet.Config"
