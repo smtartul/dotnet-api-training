@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BSseLVUo8ktDZ0sneNn45oxVAOcggx7H9/Raj+EGeYvXy0Sb1EuBXdKw61YCdyyeaZkCewDeWaiDieO8SM+AJA==",
+  "dgSpecHash": "LMzhNeoes3uPBH5dbGlkL4djdW+fQPiJkRxLygbMssWcx/BN5E+cP1eQfU0APlOiTBGRH7KGEfC9O2BctNCZyQ==",
   "success": true,
   "projectFilePath": "/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/WebApi.csproj",
   "expectedPackageFiles": [
+    "/Users/sametartul/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/sametartul/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "/Users/sametartul/.nuget/packages/fluentvalidation/11.4.0/fluentvalidation.11.4.0.nupkg.sha512",
+    "/Users/sametartul/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/sametartul/.nuget/packages/microsoft.entityframeworkcore/6.0.0/microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
     "/Users/sametartul/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.0/microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
     "/Users/sametartul/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.0/microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",

@@ -1,6 +1,6 @@
 using WebApi.DBOperations;
 
-namespace WebApi.BookOperations.DeleteBookCommand{
+namespace WebApi.BookOperations.DeleteBook{
     public class DeleteBookCommand{
         private readonly BookStoreDbContext _dbContext;
         public int BookId { get; set; }
