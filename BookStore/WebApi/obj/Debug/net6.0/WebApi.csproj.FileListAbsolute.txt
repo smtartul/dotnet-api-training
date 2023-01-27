@@ -61,3 +61,11 @@
 /Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/AutoMapper.dll
 /Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/FluentValidation.dll
+/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/sametartul/Desktop/git/dotnet/dotnet-api-training/BookStore/WebApi/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
